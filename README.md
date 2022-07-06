@@ -75,9 +75,9 @@ int delais_servo = 75 ;
   //--------------------------- servo -------------------------loop
 
 // if (steerConfig.SteerSwitch == 1)         //steer switch on - off
-  //    {
-    //    steerSwitch = digitalRead(STEERSW_PIN); //read auto steer enable switch open = 0n closed = Off
-     // }
+//    {
+//    steerSwitch = digitalRead(STEERSW_PIN); //read auto steer enable switch open = 0n closed = Off
+// }
 
  
  
@@ -97,12 +97,12 @@ int delais_servo = 75 ;
 
  //Current sensor?        
 
-    //     if (sensorReading >= steerConfig.PulseCountMax)
-    //      {
-    //          steerSwitch = 1; // reset values like it turned off
-    //          currentState = 1;
-    //          previous = 0;
-    //      }
+//     if (sensorReading >= steerConfig.PulseCountMax)
+//      {
+//          steerSwitch = 1; // reset values like it turned off
+//          currentState = 1;
+//          previous = 0;
+//      }
 
 
       if (sensorReading >= steerConfig.PulseCountMax)
