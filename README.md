@@ -39,19 +39,19 @@ The servo  has  3  way
  code  to be add 
   
    //--------------------------- servo -------------------------INIT
- /* Inclut la lib Servo pour manipuler le servomoteur */
-#include <Servo.h>
+  /* Inclut la lib Servo pour manipuler le servomoteur */
+  #include <Servo.h>
 
-/* Créer un objet Servo pour contrôler le servomoteur */
-Servo monServomoteur;
+  /* Créer un objet Servo pour contrôler le servomoteur */
+  Servo monServomoteur;
 
-#define SERVO_PIN 5       // D5
-int servo_position = 160 ; //
-int servo_position_sleep =170 ; //
-int servo_position_steer =120 ; //
-int servo_position_stop =35 ; //
-int servo_delai = 75 ;
-int delais_servo = 75 ;
+  #define SERVO_PIN 5       // D5
+  int servo_position = 160 ; //
+  int servo_position_sleep =170 ; //
+  int servo_position_steer =120 ; //
+  int servo_position_stop =35 ; //
+  int servo_delai = 75 ;
+  int delais_servo = 75 ;
 
 
 
