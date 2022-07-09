@@ -1,5 +1,7 @@
 # AgopenGPS-Switch-ACS712-mode-and-Servo-
 
+video https://www.youtube.com/watch?v=G-5kT9UqfJE
+
 
 ---------------------FR-----------------------------
 Code modifié pour l'ajout d'un servo sur la pin D5  du PCB  V2
